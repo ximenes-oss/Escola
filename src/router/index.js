@@ -10,7 +10,7 @@ Vue.use(VueRouter)
 import axios from 'axios'
 
 //default base URL / EndPoint API
-axios.defaults.baseURL = "http://f21spdvmnt.org/Ensino/"
+axios.defaults.baseURL = "http://localhost:8000/"
 
 const router = new VueRouter({
 	routes: [{
